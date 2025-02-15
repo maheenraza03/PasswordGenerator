@@ -1,41 +1,46 @@
 body {
-    background-color: #333;
-    color: white;
+    background-color: #9CA3D6;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
-    background-color: blue;
-    padding: 3rem;
+    background-color: #CFC1E8;
+    padding: 2.5rem;
     border-radius: 1rem;
-    border: 2px solid black;
+    border: 2px solid #B3DDC4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
 }
 
 .form {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 1rem;
-    column-gap: 3rem;
+    column-gap: 2rem;
     justify-content: center;
     align-items: center;
 }
 
-.title {
-    margin: 0;
-    text-align: center;
-}
-
 label {
     font-weight: bold;
+    color: #333;
 }
 
 .amountContainer {
@@ -44,34 +49,44 @@ label {
 }
 
 .number-input {
-    width: 2rem;
+    width: 3rem;
+    padding: 0.3rem;
+    border: 2px solid #F7EFDA;
+    border-radius: 0.3rem;
+    background-color: #F2D5EF;
+    color: #333;
+    text-align: center;
 }
 
 .password-display {
-    background-color: white;
-    color: black;
+    background-color: #F7EFDA;
+    color: #333;
     padding: 1rem;
-    border: 1px solid #333;
-    height: 2rem;
+    border: 1px solid #CFC1E8;
+    height: 2.5rem;
     width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    word-break: break-all;
-    border-radius: .5rem;
+    word-break: break-word;
+    border-radius: 0.5rem;
+    font-weight: bold;
 }
 
 .btn {
     grid-column: span 2;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: .5rem 1rem;
+    background-color: #B3DDC4;
+    border: none;
+    color: #333;
+    padding: 0.7rem 1.5rem;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
 }
 
 .btn:hover {
-    background-color: #ffffff33;
+    background-color: #9CA3D6;
+    transform: scale(1.05);
 }

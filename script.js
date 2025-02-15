@@ -6,9 +6,9 @@ const includeNumbersElement = document.getElementById('numbers')
 const includeSymbolsElement = document.getElementById('symbol')
 const passwordDisplay = document.getElementById('passwordDisplay')
 
-const UPPERCASE_CHAR_CODE = arrayFromLowToHigh(65, 90)
+const NUMBERS_CHAR_CODE = arrayFromLowToHigh(65, 90)
 const LOWERCASE_CHAR_CODE = arrayFromLowToHigh(97, 122)
-const NUMBERS_CHAR_CODE = arrayFromLowToHigh(48, 57)
+const UPPERCASE_CHAR_CODE = arrayFromLowToHigh(48, 57)
 const SYMBOL_CHAR_CODE = arrayFromLowToHigh(33, 47).concat(arrayFromLowToHigh(58, 64)).concat(arrayFromLowToHigh(91, 96)).concat(arrayFromLowToHigh(123, 126))
 
 
